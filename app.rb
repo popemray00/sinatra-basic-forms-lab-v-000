@@ -7,11 +7,6 @@ class App < Sinatra::Base
     erb :index
   end
 
-  get '/welcome' do
-    "Click Here To List A Puppy"
-    erb :index
-  end
-
   get '/new' do
     erb :create_puppy
   end
